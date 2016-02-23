@@ -2,7 +2,8 @@
 =====
 
 A Symfony project created on February 22, 2016, 12:10 pm.
-Strona wraz z baza danych w spakowanym pliku : sklep_paczka.tar.gz
+
+###### Strona wraz z baza danych w spakowanym pliku : sklep_paczka.tar.gz
 
 Strona oparta na frameworku Symfony
 
