@@ -25,4 +25,4 @@ Lista produktów jest pobierana z bazy danych wraz z formularzem który pozwala 
 
 #### Widok
 
-![zrzut_ekranu](image/screen2.png)
+![zrzut_ekranu](image/screen.png)
