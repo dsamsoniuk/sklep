@@ -1,0 +1,31 @@
+<?php
+
+namespace AppBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * @ORM\Entity
+ * @ORM\Table(name="history")
+ */
+
+class history
+{
+    /**
+     * @ORM\Column(type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    protected $id;
+
+    /**
+     * @ORM\Column(type="string", length=100)
+     */
+    protected $id_product;
+
+    /**
+     * @ORM\Column(type="datetime")
+     */
+    protected $date;
+    
+}

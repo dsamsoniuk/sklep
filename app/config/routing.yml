@@ -1,0 +1,16 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+default:
+    path: /
+    defaults:  { _controller: AppBundle:Default:index }
+    
+shop:
+    path: /shop
+    defaults:  { _controller: AppBundle:Default:shop }   
+    
+clear_session:
+    path: /oproznij_koszyk
+    defaults:  { _controller: AppBundle:Default:clear_session }
+    

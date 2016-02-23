@@ -1,0 +1,82 @@
+
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+    
+
+
+<h2>Twój koszyk - <a href="{{ path('clear_session') }}">opróżnij koszyk</a></h2>
+    
+    {% if basket is defined %}
+        
+                
+         {% if size_basket >= 0 %}
+             
+             <ul>
+                  {%for i in 0..size_basket%}
+                    
+                      <li>{{basket[i]['name']}} -  {{basket[i]['description']}}</li>
+                  
+                  {%endfor%}  
+             </ul>
+         
+         {% else %}
+             
+            Brak wybranych produktów
+             
+         {%endif%}
+
+         {%endif%}
+
+
+        
+<form method="post">
+    <table border="0">
+        <thead><h2>Produkty</h2></thead>
+    {% if products_list is defined %}
+        <tr>
+            <td>Nazwa</td>
+            <td>Cena
+            <td>Opis
+            <td>Wybierz
+                
+        {%for i in 0..size_products_list%}
+            
+            <tr>
+                <td>{{ products_list[i]['name']}}
+                <td>{{ products_list[i]['price']}}
+                <td>{{ products_list[i]['description']}}
+                <td>
+                    <input type="radio" name="product_id" value="{{products_list[i]['id']}}">
+                    
+        {%endfor%}
+        
+        <tr>
+            <td colspan="4"><input type="submit" value="Dodaj do kosza">
+        
+    {%else%}
+        
+        <tr>
+            <td>Brak produktów
+                
+    {%endif%}
+    
+    </table>
+</form>
+ {%endblock%}
+ 
+ 
+ 
+ {% block stylesheets %}
+<style>
+    
+td { 
+    padding:7px;
+}
+         
+</style>
+ 
+ 
+ 
+ {% endblock %}
