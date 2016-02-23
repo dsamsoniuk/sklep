@@ -1,19 +1,14 @@
-### Sklep
-=====
+# Sklep
 
-A Symfony project created on February 22, 2016, 12:10 pm.
 
 ###### Strona wraz z baza danych w spakowanym pliku : sklep_paczka.tar.gz
 
-Strona oparta na frameworku Symfony
 
-
-
-#### Opis
+### Opis
 
 Strona wyświetla koszyk uzytkownika oraz liste produktów z bazy danych.
 
-#### Działanie
+### Działanie
 
 ##### Koszyk
 
@@ -23,6 +18,14 @@ Informacje wraz z lista produktow sa pobierane z sesji ktore nastepnie sa wyswie
 
 Lista produktów jest pobierana z bazy danych wraz z formularzem który pozwala na dodanie produktu do koszyka tj. sesji
 
-#### Widok
 
+<<<<<<< HEAD
+
+
+
+### Widok
+
+![zrzut_ekranu](image/screen.jpg)
+=======
 ![zrzut_ekranu](image/screen.png)
+>>>>>>> e70ea2ec8038ccab690627863db096060871880b
