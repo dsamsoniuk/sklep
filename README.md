@@ -8,6 +8,10 @@
 
 Strona wyświetla koszyk uzytkownika oraz liste produktów z bazy danych.
 
+### Dokumentacja
+
+[Dokumentacja - kontroler (format HTML)](/sd)
+
 ### Działanie
 
 ##### Koszyk
@@ -33,4 +37,3 @@ Tabele w ktorych zostały zamieszczone dane produktow oraz i uzycie.
 ### Widok
 
 ![zrzut_ekranu](image/screen.jpg)
-
