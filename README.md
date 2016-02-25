@@ -10,7 +10,7 @@ Strona wyświetla koszyk uzytkownika oraz liste produktów z bazy danych.
 
 ### Dokumentacja
 
-[Dokumentacja - kontroler (format HTML)](/sd)
+[Dokumentacja - kontroler (format HTML)](https://github.com/dsamsoniuk/sklep/tree/master/Documentation)
 
 ### Działanie
 
